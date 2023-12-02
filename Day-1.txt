@@ -1,0 +1,10 @@
+// function should return text with input. Example:
+// input: birds
+// output: Kotlin is awesome and so called "birds" fly key
+// Note that in expected output word "birds" is in ""
+// how to handle special cases? Modify createContent function.
+
+fun createContent(input: String): String {
+    val text = "Kotlin is awesome and so called ??? fly key"
+    return text
+}
